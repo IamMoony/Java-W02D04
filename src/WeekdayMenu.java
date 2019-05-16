@@ -1,7 +1,7 @@
-public class WeekdayMenu {
+public class WeekdayMenu extends Menu {
 
-    public WeekdayMenu(String name, int portionVolume, int price, String mainDish, String desert, String soup) {
-        super(name, portionVolume, price, mainDish, desert, soup);
+    public WeekdayMenu(String mainDish, String soup, String desert) {
+        super(mainDish, soup, desert);
     }
 
 }
