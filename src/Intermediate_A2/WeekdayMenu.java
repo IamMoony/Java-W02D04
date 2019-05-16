@@ -1,3 +1,7 @@
+package Intermediate_A2;
+
+import Intermediate_A2.Menu;
+
 public class WeekdayMenu extends Menu {
 
     public WeekdayMenu(String mainDish, Soup soup, String desert) {

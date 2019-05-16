@@ -1,3 +1,5 @@
+package Intermediate_A2;
+
 public class Menu {
 
    private String mainDish;

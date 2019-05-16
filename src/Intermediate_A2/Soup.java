@@ -1,7 +1,9 @@
+package Intermediate_A2;
+
 public class Soup {
 
-   private String name;
-   private String portionVolume;
+    private String name;
+    private String portionVolume;
 
 
     public Soup(String name, String portionVolume) {
@@ -25,3 +27,4 @@ public class Soup {
         this.portionVolume = portionVolume;
     }
 }
+
