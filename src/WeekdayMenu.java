@@ -4,8 +4,8 @@ public class WeekdayMenu extends Menu {
         super(mainDish, soup, desert);
     }
 
-    public getSoupOfTheDay() {
-        String soupOfTheDay = "The soup of the day is " + this.soup;
+    public String printMenu() {
+        String printMenu = "The menu of today consists of " + this.getMainDish() + " as a main dish " + this.getSoup().getName() + " as a soup and " + this.getDesert() + " as a desert.";
+        return printMenu;
     }
-
 }

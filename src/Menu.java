@@ -34,4 +34,9 @@ public class Menu {
     public void setSoup(Soup soup) {
         this.soup = soup;
     }
+
+    public String getSoupOfTheDay() {
+        String soupOfTheDay = "The soup of the day is " + soup;
+        return soupOfTheDay;
+    }
 }

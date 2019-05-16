@@ -8,4 +8,20 @@ public class Soup {
         this.name = name;
         this.portionVolume = portionVolume;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getPortionVolume() {
+        return portionVolume;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPortionVolume(String portionVolume) {
+        this.portionVolume = portionVolume;
+    }
 }
