@@ -1,10 +1,10 @@
 public class Soup {
 
-    String name;
-    int portionVolume;
+   private String name;
+   private String portionVolume;
 
 
-    public Soup(String name, int portionVolume) {
+    public Soup(String name, String portionVolume) {
         this.name = name;
         this.portionVolume = portionVolume;
     }

@@ -2,10 +2,10 @@ public class Menu {
 
    private String mainDish;
    private String desert;
-   private String soup;
+   private Soup soup;
 
 
-    public Menu(String mainDish, String desert, String soup) {
+    public Menu(String mainDish, Soup soup, String desert) {
         this.mainDish = mainDish;
         this.desert = desert;
         this.soup = soup;
@@ -19,11 +19,11 @@ public class Menu {
         return desert;
     }
 
-    public String getSoup() {
+    public Soup getSoup() {
         return soup;
     }
 
-    public void setMainDish(String mainDish) { 
+    public void setMainDish(String mainDish) {
         this.mainDish = mainDish;
     }
 
@@ -31,7 +31,7 @@ public class Menu {
         this.desert = desert;
     }
 
-    public void setSoup(String soup) {
+    public void setSoup(Soup soup) {
         this.soup = soup;
     }
 }

@@ -1,8 +1,8 @@
 public class WeekendMenu extends Menu {
 
-    String appetizer;
+    private String appetizer;
 
-    public WeekendMenu(String mainDish, String soup, String desert, String appetizer) {
+    public WeekendMenu(String mainDish, Soup soup, String desert, String appetizer) {
         super(mainDish, soup, desert);
         this.appetizer = appetizer;
     }
